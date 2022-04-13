@@ -1,0 +1,19 @@
+.containerCard {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    border: 2px solid red;
+    border-radius: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0.8rem;
+    width: 50%;
+}
+
+.containCard {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    border-radius: 1rem;
+    padding: 1rem;
+}

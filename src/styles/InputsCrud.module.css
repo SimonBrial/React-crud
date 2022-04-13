@@ -1,0 +1,79 @@
+.containerInputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0.8rem;
+    width: 50%;
+}
+
+.containerInputs h1 {
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #052753;
+}
+
+.containForm {
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1.2rem;
+    background-color: #d4d5d6;
+}
+
+.containForm > div {
+    margin-bottom: 1rem;
+}
+
+.divInputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs label {
+    margin: 0 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.inputs input {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-bottom: 2px solid #1de9b6;
+}
+
+.inputs select {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-bottom: 2px solid #1de9b6;
+}
+
+.submit {
+    margin: 1rem auto;
+    color: #fff;
+    padding: 0.6rem 3.6rem;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    border:2px solid red;
+    background: linear-gradient(40deg, #052753, #08b388);
+    border: 2px solid #0f5faa;
+    transition-property: border, background, border-radius;
+    transition-duration: 2s, 2s, 0.5s;
+}
+
+.submit:hover {
+    background: linear-gradient(40deg, #0c438b, #1de9b6);
+    border: 2px solid #12a9bd;
+    border-radius: 1rem;
+}
+
+
+
